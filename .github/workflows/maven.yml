@@ -39,7 +39,7 @@ jobs:
           name: test-results
           path: |
             target/surefire-reports/*.xml
-            target/site/
+            target/surefire-reports-html/
 
       # 6. Mostrar resumen de tests
       - name: Show test summary
